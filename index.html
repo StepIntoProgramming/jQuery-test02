@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script type="text/javascript" src="js/jquery-1.8.3.js"></script>
+		<script type="text/javascript" src="js/demo34_jQuery_test.js"></script>
+		<link rel="stylesheet" href="css/demo34_jQuery_test.css" />
+	</head>
+
+	<body>
+		<form action="success.html">
+			<table>
+				<tr>
+					<td colspan="3">
+						注册
+					</td>
+				</tr>
+				<tr>
+					<td>
+						用户名：
+					</td>
+					<td>
+						<input type="text" name="username" id="name" value="必须填写"/>
+					</td>
+					<td id="name_msg">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						密码：
+					</td>
+					<td>
+						<input type="password" name="pwd" id="pwd" />
+					</td>
+					<td id="pwd_msg">密码为6位数字
+					</td>
+				</tr>
+				<tr>
+					<td>
+						确认密码：
+					</td>
+					<td>
+						<input type="password" name="confire_pwd" id="confire_pwd" />
+					</td>
+					<td id="confire_pwd_msg">密码为6位数字
+					</td>
+				</tr>
+				<tr>
+					<td>
+						性别：
+					</td>
+					<td>
+						<input type="radio" name="sex" value="male" />男
+						<input type="radio" name="sex" value="female" />女
+					</td>
+					<td id="sex_msg">
+						
+					</td>
+				</tr>
+				<tr>
+					<td>
+						手机号：
+					</td>
+					<td>
+						<input type="text" name="phone" id="phone" />
+					</td>
+					<td id="phone_msg">手机号为13/7/8/5开头的11位数字
+					</td>
+				</tr>
+				<tr>
+					<td>
+						兴趣爱好：
+					</td>
+					<td>
+						<input type="checkbox" name="interest" value="sport" />运动
+						<input type="checkbox" name="interest" value="paint" />绘画
+						<input type="checkbox" name="interest" value="sing" />唱歌
+					</td>
+					<td id="interest_msg">
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3">
+						<input type="button" value="提交" id="sub"/>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+
+</html>
